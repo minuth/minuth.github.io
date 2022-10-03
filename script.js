@@ -53,8 +53,7 @@
       "AWS"
     ],
     languages: ["Khmer", "English"],
-    professionalSummary: `Developer with a background in web, mobile and game development, having 9+ years of practice and leadership building interactive experiences.
-      Great enthusiastic teamwork, considered helpful, creative, assertive and cautious.`,
+    professionalSummary: `Developer with a background in web and mobile, having 3+ years of practice experiences.`,
     employmentHistory: [
       {
         jobTitle: "Full-Stack Developer",
