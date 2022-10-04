@@ -44,6 +44,8 @@
       "C#",
       "NodeJS/ExpressJS/NestJS",
       "ReactJS/NextJS",
+      "HTML",
+      "CSS",
       "Android",
       "Flutter",
       "Spring boot",
