@@ -52,7 +52,9 @@
       "PostgreSQL",
       "Docker",
       "CI/CD",
-      "AWS"
+      "AWS",
+      "Appium",
+      "Locust"
     ],
     languages: ["Khmer", "English"],
     professionalSummary: `Developer with a background in web and mobile, having 3+ years of practice experiences.`,
