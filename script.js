@@ -167,7 +167,7 @@
       }
     ],
     photo:
-      "./profile.jpg"
+      "https://avatars.githubusercontent.com/u/33181465?v=4"
   };
   
   const formatResume = (r) => ({
