@@ -11,7 +11,7 @@
     email: "minuthprom321@gmail.com",
     education: [
       {
-        school: "Royal Unversity Of Phnom Penh",
+        school: "Royal University Of Phnom Penh",
         degree: "Bachelor",
         graduationDate: "2016-2019",
         description: "Computer Science"
@@ -20,7 +20,13 @@
         school: "Korean Software HRD Center",
         degree: "Scholarship Program",
         graduationDate: "2018-2019",
-        description: "Software Developement"
+        description: "Software Development"
+      },
+      {
+        school: "ANT Computer Specialist Training",
+        degree: "",
+        graduationDate: "2016-2017",
+        description: "Software Development"
       }
     ],
     links: [
@@ -38,29 +44,45 @@
       }
     ],
     skills: [
-      "JavaScript",
-      "TypeScript",
-      "Java",
+      "Java (Spring boot)",
+      "JavaScript/TypeScript-Backend[ExpressJS, NestJS]",
+      "JavaScript/TypeScript-Frontend[NextJS, NuxtJS]",
+      "Android (Java, Kotlin)",
       "C#",
-      "NodeJS/ExpressJS/NestJS",
-      "ReactJS/NextJS",
-      "HTML",
-      "CSS",
-      "Android",
-      "Flutter",
-      "Spring boot",
       "PostgreSQL",
       "Docker",
-      "CI/CD",
-      "AWS"
+      "CI/CD(Github Action)",
+      "AWS/GCP"
     ],
     languages: ["Khmer", "English"],
-    professionalSummary: `Developer with a background in web and mobile, having 3+ years of practice experiences.`,
+    professionalSummary: `Developer with a background in web and mobile, having 4 years of practice experiences.`,
     employmentHistory: [
+      {
+        jobTitle: "Senior Core System Developer",
+        startDate: "November 2022",
+        endDate: "Present",
+        employer: "PiPay",
+        city: "Phnom Penh",
+        achievements: [
+          {
+            projectName: "PiPay ECommerce Portal",
+            description:
+              "The Payment gateway for merchant to integrate PiPay online payment with their online shop.",
+            responsibility:
+              "Refactored project structure and technology both front-end and back-end, and improve deployment process."
+          },
+          {
+            projectName: "PiPay Core System",
+            description: "The core system that provide API for PiPay mobile application",
+            responsibility:
+              "Maintenance and develop new API, and integrate with others payment gateway."
+          }
+        ]
+      },
       {
         jobTitle: "Full-Stack Developer",
         startDate: "May 2021",
-        endDate: "Present",
+        endDate: "November 2022",
         employer: "VTECH CO., LTD",
         city: "Phnom Penh",
         achievements: [
@@ -69,7 +91,7 @@
             description:
               "The Cambodia My 2nd Home (CM2H) is the only government official program approved and recognized by the Ministry of Interior and General Department of Immigration of the Kingdom of Cambodia to allow foreigners to stay in Cambodia with a Golden Visa of 10 years.",
             responsibility:
-              "Stucture project and analys database, build REST API for front-end, integrare API with Admin Panel, and implement CI/CD for docker deployment."
+              "Structure project and analyst database, build REST API for front-end, integrate API with Admin Panel, and implement CI/CD for docker deployment."
           },
           {
             projectName: "Experts",
@@ -82,7 +104,7 @@
             description:
               "The automation WhatsApp application to create an account and send messages",
             responsibility:
-              "Using ADB tool and Node.JS to automation the WhatsApp appication."
+              "Using ADB tool and Node.JS to automation the WhatsApp application."
           }
         ]
       },
@@ -128,10 +150,24 @@
         endDate: "July 2019",
         employer: "MobileOne",
         city: "Phnom Penh"
+      },
+      {
+        jobTitle: "Programming Teacher (Part-time)",
+        startDate: "2019",
+        endDate: "2021",
+        employer: "ANT Computer Specialist Training",
+        city: "Phnom Penh"
+      },
+      {
+        jobTitle: "Volunteer Programmer Assistant",
+        startDate: "2017",
+        endDate: "2018",
+        employer: "ANT Computer Specialist Training",
+        city: "Phnom Penh"
       }
     ],
     photo:
-      "https://lh5.googleusercontent.com/slkldi8Wbca2-KlbS4LB6oQ_OYDaCG1FFxJKMxGvTdeLlaSf4qe1MVZMCVeAF6PoV2M=w2400"
+      "./profile.jpg"
   };
   
   const formatResume = (r) => ({
