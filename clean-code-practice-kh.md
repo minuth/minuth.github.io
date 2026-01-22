@@ -115,6 +115,7 @@ function validateUser(user: User) {
 Class ឬ function មួយគួរតែមានទំនួលខុសត្រូវតែមួយ។
 
 **ឧទាហរណ៍:**
+
 ```typescript
 // Bad - Single class with multiple responsibilities
 class UserManager {
