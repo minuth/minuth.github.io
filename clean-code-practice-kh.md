@@ -109,8 +109,11 @@ function validateUser(user: User) {
 }
 ```
 
-## ៤. គោលការណ៍ SOLID (SOLID Principles)
-- **Single Responsibility Principle (SRP)**: Class ឬ function មួយគួរតែមានទំនួលខុសត្រូវតែមួយ។
+## ៥. គោលការណ៍ SOLID (SOLID Principles)
+
+### Single Responsibility Principle (SRP)
+Class ឬ function មួយគួរតែមានទំនួលខុសត្រូវតែមួយ។
+
 **ឧទាហរណ៍:**
 ```typescript
 // Bad - Single class with multiple responsibilities
@@ -148,8 +151,11 @@ class TaxCalculator {
   }
 }
 ```
-- **Open/Closed Principle (OCP)**: បើកសម្រាប់ការបន្ថែម (extension) ប៉ុន្តែបិទសម្រាប់ការកែប្រែ (modification)។
-** ឧទាហរណ៍:**
+
+### Open/Closed Principle (OCP)
+បើកសម្រាប់ការបន្ថែម (extension) ប៉ុន្តែបិទសម្រាប់ការកែប្រែ (modification)។
+
+**ឧទាហរណ៍:**
 ```typescript
 // Bad - Modifying existing code to add new shapes
 class AreaCalculator {
@@ -185,7 +191,10 @@ class AreaCalculator {
     }
 }
 ```
-- **Liskov Substitution Principle (LSP)**: Derived classes ត្រូវតែអាចជំនួស base classes បាន។
+
+### Liskov Substitution Principle (LSP)
+Derived classes ត្រូវតែអាចជំនួស base classes បាន។
+
 **ឧទាហរណ៍:**
 ```typescript
 // Bad - Subclass that violates LSP
@@ -214,9 +223,11 @@ class FlyingBird extends Bird {
 class Ostrich extends Bird {
     // Ostrich does not have fly method
 }
-
 ```
-- **Interface Segregation Principle (ISP)**: កុំបង្ខំឱ្យ client ពឹងផ្អែកលើ interfaces ដែលពួកគេមិនប្រើ។
+
+### Interface Segregation Principle (ISP)
+កុំបង្ខំឱ្យ client ពឹងផ្អែកលើ interfaces ដែលពួកគេមិនប្រើ។
+
 **ឧទាហរណ៍:**
 ```typescript
 // Bad - Fat interface
@@ -263,7 +274,9 @@ class RobotWorker implements Workable {
     }
 }
 ```
-- **Dependency Inversion Principle (DIP)**: ពឹងផ្អែកលើ abstractions ជំនួស concretions។
+
+### Dependency Inversion Principle (DIP)
+ពឹងផ្អែកលើ abstractions ជំនួស concretions។
 
 **ឧទាហរណ៍:**
 
@@ -314,7 +327,7 @@ new UserService(new MySQLDatabase())
 new UserService(new PostgreSQLDatabase())
 ```
 
-## ៥. Clean Architecture
+## ៦. Clean Architecture
 - **Layer Separation**: បំបែក Layers ទៅតាមតួនាទី (e.g.,​ Service, Repository, Controller)។
 - **Dependency Rule**: អនុវត្តតាម Dependency Inversion Principle ដើម្បីធានាថា high-level modules មិនពឹងផ្អែកលើ low-level modules ទេ។ 
 - **Independence**: Business logic មិនពឹងផ្អែកលើ frameworks, UI, ឬ databases។
