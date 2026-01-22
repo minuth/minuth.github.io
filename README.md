@@ -9,3 +9,8 @@ Here you will find documentation and resources related to subjects I am interest
 ## Disclaimer
 
 The information here is based on my own understanding and experience. It may not always be complete or up-to-date.
+
+## Contents
+
+- [Clean Code and Software Design Principles (English)](clean-code-practice)
+- [Clean Code and Software Design Principles (Khmer)](clean-code-practice-kh)
