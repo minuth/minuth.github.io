@@ -264,7 +264,9 @@ class RobotWorker implements Workable {
 }
 ```
 - **Dependency Inversion Principle (DIP)**: ពឹងផ្អែកលើ abstractions ជំនួស concretions។
+
 **ឧទាហរណ៍:**
+
 ```typescript
 // Bad - High-level module depends on low-level module
 class MySQLDatabase {
