@@ -277,7 +277,7 @@ class RobotWorker implements Workable {
 ```
 
 ### Dependency Inversion Principle (DIP)
-ពឹងផ្អែកលើ abstractions ជំនួស concretions។
+Dependency គួរពឹងផ្អែកលើ abstractions ជំនួស concretions។
 
 **ឧទាហរណ៍:**
 
